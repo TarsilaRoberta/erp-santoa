@@ -9,6 +9,8 @@ html, body {
 	background-color: #9e3736;
 	font-family: FB;   
 	margin: 0px auto 0px auto;
+	width: 100%;
+	height: 100%;
 }
 
 .logo li {
