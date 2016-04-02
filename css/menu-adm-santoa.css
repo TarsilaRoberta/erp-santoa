@@ -17,22 +17,29 @@ html, body {
 	list-style: none;
 }
 
+.logo li img{
+	max-width: 100%;
+}
+
+ul.list-menu {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
 .menu li {
 	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
 }
 
 .menu a {
 	text-decoration: none;
 	color: #facbb4;
-	font-size: 45pt;
+	font-size: 28px;
 }
 
 .menu a:hover {
 	color: #760e0d;
 	transition: .6s;
-}
-
-.icon {
-	padding: 42px;
-	margin-left: 200px;
 }
