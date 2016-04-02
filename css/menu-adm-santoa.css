@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'FB';
+	src: url("../font/AGENCYB.ttf");
+} 
+
+
+html, body {
+	background-color: #9e3736;
+	font-family: FB;   
+	margin: 0px auto 0px auto;
+}
+
+.logo li {
+	list-style: none;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #facbb4;
+	font-size: 45pt;
+}
+
+.menu a:hover {
+	color: #760e0d;
+	transition: .6s;
+}
+
+.icon {
+	padding: 42px;
+	margin-left: 200px;
+}
