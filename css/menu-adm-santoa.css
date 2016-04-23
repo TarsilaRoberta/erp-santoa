@@ -9,44 +9,69 @@ html, body {
 	background-color: #9e3736;
 	font-family: FB;   
 	margin: 0px auto 0px auto;
-	width: 100%;
 	height: 100%;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	width: 100%;
 }
 
-.logo li {
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.picture {
 	list-style: none;
 }
 
-.logo li img{
+.picture img {
 	max-width: 100%;
 }
 
-ul.list-menu {
-    width: 100%;
-    padding: 0;
-    text-align: center;
+.search-form {
+	float: right;
+    padding: 15px 0px;
 }
 
-.menu li {
+.search-li {
 	list-style: none;
-	display: inline-block;
-	padding: 0 20px;
 }
 
-.menu a {
+.search {
+	background-color: #760e0d;
+	border: 5px solid #760e0d;
+}
+
+.search:hover {
+	background-color: #9e3736;
+	border: 5px solid #9e3736;
+	transition: .6s;
+}
+
+.search-li input {
+	background-color: #facbb4;
+	border: 6px solid #facbb4;
+	position: relative;
+	bottom: 5.5px;
+	height: 22px;
+	margin: auto -2px auto auto;
+}
+
+.list-menu {
+	text-align: center;
+}
+.list-menu li {
+	display: inline-block;
+	list-style: none;
+}
+
+.list-menu a {
 	text-decoration: none;
 	color: #facbb4;
-	font-size: 28px;
-	font-family: 'FB';
+	font-size: 35px;
+	padding: 20px;
 }
 
-.menu a:hover {
+.list-menu a:hover {
 	color: #760e0d;
 	transition: .6s;
 }
 
-.container{
-	width: 1200px;
-	margin: 0 auto;
-}
