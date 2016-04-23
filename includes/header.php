@@ -1,3 +1,4 @@
+<?php require 'includes/conexao.php'; ?>
 <!DOCTYPE html>
 <html lang="pr-br">
 <head>
@@ -18,7 +19,7 @@
 			<nav class="menu-nav">
 				<ul class="list-menu container">
 					<li class="icon"><a href="pedido-compra.php">Pedidos</a></li>
-					<li class="icon"><a href="cadastro-cliente.php">Clientes</a></li>
+					<li class="icon"><a href="lista-clientes.php">Clientes</a></li>
 					<li class="icon"><a href="cadastro-produto.php">Produtos</a></li>
 					<li class="icon"><a href="despesas.php">Despesas</a></li>
 					<li class="icon"><a href="estoque.php">Estoque</a></li>									

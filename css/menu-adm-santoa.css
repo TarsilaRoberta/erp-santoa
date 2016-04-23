@@ -75,3 +75,48 @@ html, body {
 	transition: .6s;
 }
 
+fieldset {
+    background-color: white;
+    margin-top: 25px;
+}
+
+fieldset legend{
+	background-color: #7f2423;
+	padding: 10px 150px;
+	font-size: 22px;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	color: #facbb4;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-right: 10px;
+    transition: all .5s ease;
+    font-size: 14px;
+}
+
+input:focus,input:active {
+    outline: 0;
+    box-shadow: 0 0 5px rgb(127, 36, 35);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead th {
+    border-bottom: 2px solid #ccc;
+    padding: 6px;
+}
+
+table td {
+    border-bottom: 1px solid #eee;
+    padding: 7px 18px;
+}
