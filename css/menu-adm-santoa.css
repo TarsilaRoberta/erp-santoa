@@ -78,6 +78,7 @@ html, body {
 fieldset {
     background-color: white;
     margin-top: 25px;
+    position: relative;
 }
 
 fieldset legend{
@@ -88,11 +89,33 @@ fieldset legend{
 	color: #facbb4;
 }
 
+fieldset legend.right {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.form-input {
+    margin-bottom: 5px;
+}
+
+.form-submit{
+	padding-left: 113px;
+}
+
+.form-input label {
+    min-width: 100px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+
 label {
     margin-right: 10px;
 }
 
-input {
+input,
+textarea {
     padding: 6px 10px;
     border: 1px solid #ccc;
     border-radius: 2px;
@@ -101,7 +124,8 @@ input {
     font-size: 14px;
 }
 
-input:focus,input:active {
+input:focus,input:active,
+textarea:focus,textarea:active {
     outline: 0;
     box-shadow: 0 0 5px rgb(127, 36, 35);
 }
@@ -114,9 +138,34 @@ table {
 table thead th {
     border-bottom: 2px solid #ccc;
     padding: 6px;
+    text-align: left;
 }
 
 table td {
     border-bottom: 1px solid #eee;
-    padding: 7px 18px;
+    padding: 7px 6px;
+}
+
+.button {
+	cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to top, #803e3d, #9e3736);
+    padding: 3px 20px;
+    border-radius: 3px;
+    border: 1px solid #9e3736;
+}
+
+.button:hover {
+    background-image: linear-gradient(to top, #7e4343, #8a3332);
+}
+
+.button.success {
+    background-image: linear-gradient(to top, #4CAF50, #8BC34A);
+    border-color: #5dab34;
+}
+
+.button.success:hover {
+    background-image: linear-gradient(to top, #36b13b, #80ca2b);
+    border-color: #4e8e2d;
 }

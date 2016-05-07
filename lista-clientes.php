@@ -2,6 +2,7 @@
 
 <fieldset>
 	<legend>Lista de Clientes</legend>
+	<legend class="right"><a href="editar-cliente.php?id=0" class="button">Adicionar Cliente</a></legend>
 
 	<table class="table">
 		<thead>

@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Adm Santoa</title>
 	<link rel="stylesheet" href="css/menu-adm-santoa.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 </head>
 <body>
 	<div class="header">
